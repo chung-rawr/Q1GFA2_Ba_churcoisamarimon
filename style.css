@@ -1,19 +1,109 @@
-.banner{
-    position: absolute;
+.navbar {
+    background-color: skyblue;
+    overflow: hidden;
 }
 
-.leftlinks{
-    display: block;
+.navbar img {
+    float: left;
+    padding: 10px;
+    height: 40px;
+    width: 55px;
 }
 
-.content{
-    max-width: 50px;
+.navbar a {
+    float: right;
     display: block;
-    position: absolute;
-    left: 50vh;
+    color: black;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: cursive;
 }
 
-.rightlinks{
+.navbar a:hover {
+    background-color: ivory;
+    color: black;
+}
+
+ .banner {
+    background-image: url("aquamarine-crystal.jpg"); 
+    background-size: cover;
+    background-position: center;
+    height: 150px; 
+    text-align: center;
+    color: skyblue;
+    font-size: 24px;
+    padding-top: 100px;
+    border: 2px solid black;
+    font-family: cursive;
+    }
+
+  .links{
+    float: left;
     display: block;
+    background-color: skyblue;
+    display: inline;
+    border: 2px solid black ;
+    padding: 3px ;
+    margin: 5px;
+    font-family: cursive;
+
+}
+
+.box {
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    max-width: 80%;
+}
+
+.bluecats {
+    border: 2px solid black;
+    background-color: skyblue;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+}
+
+.bluecats img {
+    float: left;
+    max-width: 50%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.bluecats p {
+    float: right;
+    font-family: cursive;
+}
+
+.box1 {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding: 20px;
+    margin: 20px;
+    max-width: 20%;
+}
+
+.characteristics {
+    border: 2px solid black;
+    background-color: skyblue;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    align-items: right;
+    font-family: cursive; 
+}
+
+.box2 {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: skyblue;
+    max-width: 20%;
 }
